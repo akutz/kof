@@ -1,0 +1,37 @@
+---
+apiVersion: example.com/v1alpha1
+kind: Widget
+metadata:
+  name: my-widget-1
+spec:
+  moon: {}
+
+---
+apiVersion: example.com/v1alpha1
+kind: Widget
+metadata:
+  name: my-widget-2
+spec:
+  moon: {}
+  waxy: {}
+
+---
+apiVersion: example.com/v1alpha1
+kind: Widget
+metadata:
+  name: my-widget-3
+spec:
+  moon: {}
+  waxy: {}
+  wane: {}
+
+---
+apiVersion: example.com/v1alpha1
+kind: Widget
+metadata:
+  name: my-widget-4
+spec:
+  moon: {}
+  waxy: {}
+  wane:
+    snikt: {}
